@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by TIBCO BusinessEvents POM generation utility be-maven-pom-generator
+  Creation datetime: Thu Jul 01 13:39:43 KST 2021
+-->
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tibco.be</groupId>
+  <artifactId>fd</artifactId>
+  <version>0.0.1</version>
+  <packaging>ear</packaging>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.tibco.be.maven.plugin</groupId>
+        <artifactId>be-maven-plugin</artifactId>
+        <version>6.1.0</version>
+        <extensions>true</extensions>
+        <configuration>
+          <beProjectDetails>
+            <beHome>C:/tibco_be_610/be/6.1</beHome>
+            <jdkHome/>
+            <earLocation>target</earLocation>
+            <projLibLocation>target</projLibLocation>
+          </beProjectDetails>
+          <projLibResources/>
+          <teaConfig>
+            <teaUrl>http://localhost:8777</teaUrl>
+            <applicationName/>
+            <username>admin</username>
+            <password>admin</password>
+          </teaConfig>
+          <appImageConfig>
+            <useBEHome>true</useBEHome>
+            <be_home/>
+            <cddFileLocation/>
+            <installers_location/>
+            <targetDir/>
+            <appImage/>
+            <dockerfile/>
+          </appImageConfig>
+          <dockerRegistryConfig>
+            <property>
+              <name>Repository</name>
+              <value/>
+            </property>
+            <property>
+              <name>Url</name>
+              <value/>
+            </property>
+            <property>
+              <name>TagImage</name>
+              <value/>
+            </property>
+          </dockerRegistryConfig>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies/>
+  <properties>
+    <reuseForks>false</reuseForks>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+  </properties>
+</project>
+
